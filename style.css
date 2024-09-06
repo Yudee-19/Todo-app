@@ -1,0 +1,104 @@
+* {
+    line-height: 1.5rem;
+}
+
+body {
+    background-color: #021526;
+    color: #f2f2ce;
+}
+
+.container {
+    background-color: #ffffff19;
+    margin-top: 10vh;
+    max-width: 29rem;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.heading {
+    padding: 3vh 0vh 1vh 0vh;
+    text-align: center;
+}
+
+.heading > h3 {
+    font-weight: 700;
+}
+
+.input {
+    margin: 10px 0px;
+    padding: 0px 18px;
+}
+
+.input > input {
+    background-color: #ffffff19;
+    border-color: #ffffff19;
+    border-radius: 8px;
+    color: #f2f2ce;
+    width: 100%;
+    height: 3rem;
+}
+
+input[type="text"] {
+    background-color: #ffffff19;
+}
+
+input::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    color: #f2f2ce5b;
+}
+
+.button {
+    width: 100%;
+    padding: 0px 18px;
+    padding-bottom: 10px;
+}
+
+.button > button {
+    height: 3rem;
+    width: 100%;
+    font-size: large;
+    font-weight: 610;
+}
+
+#taskbox {
+    background-color: #ffffff19;
+    border: 1px solid #6eacda;
+    border-radius: 10px;
+    /* width: 100%; */
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.tasks {
+    margin: 7px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tasks > P {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-size: medium;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.deleteButton {
+    font-size: px;
+}
+
+#taskButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
